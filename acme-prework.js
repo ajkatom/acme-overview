@@ -48,7 +48,7 @@ function generateProductsMap(products) {
 
         acu[val.id] = val;
 
-        return obg
+        return obj
     }, {});
     return productObj;
 }
