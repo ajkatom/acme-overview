@@ -46,7 +46,7 @@ var lineItems = [{
 function generateProductsMap(products) {
     var productObj = products.reduce(function(obj, val) {
 
-        acu[val.id] = val;
+        obj[val.id] = val;
 
         return obj
     }, {});
